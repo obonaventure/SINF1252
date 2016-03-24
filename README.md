@@ -2,10 +2,11 @@
 
 ### Introduction 
 
-Pour ce projet bonus, vous êtes invités à sélectionner un exercice parmi ceux proposés dans le fichier exercices.md. Vous devrez alors réaliser des tests unitaires à l'aide de CUnit pour cet exercice. Le but est que ces tests soient assez complets pour qu'ils puissent être intégrés à INGInious et permettent de vérifier si la solution d'un étudiant à cet exercice est correct ou non. Si les tests fournis par l'étudiant sont corrects et assez exhaustifs au vu de l'exercice choisi, celui-ci peut gagner 1 point bonus pour le cours SINF1252.
+Pour ce projet bonus, vous êtes invités à sélectionner un exercice parmi ceux proposés dans le fichier exercices.md. Vous devrez alors réaliser des tests unitaires à l'aide de CUnit pour cet exercice. Le but est que ces tests soient assez complets pour qu'ils puissent être intégrés à INGInious et permettent de vérifier si la solution d'un étudiant à cet exercice est correcte ou non. Si les tests fournis par l'étudiant sont corrects et assez exhaustifs au vu de l'exercice choisi, celui-ci peut gagner 1 point bonus pour le cours SINF1252.
 
 Le mode opératoire est le suivant :
 * Choisissez un exercice qui n'est pas encore réservé dans le fichier exercices.md. Soumettez alors un Pull-Request (PR) pour indiquer que vous réservez cet exercice. Modifiez la mention « *RESERVATION* : <1 personne> » par « *RESERVATION* : Prénom Nom Noma » de l'exercice. Á partir du moment où vous réservez un exercice, vous vous engagez à le réaliser. Si après un temps raisonnable aucune preuve de travail de votre part n'a été montrée, la réservation peut être annulée au profit de quelqu'un d'autre.
+* Proposez un nouvel exercice avec un énoncé détaillé sous la forme d'une modification au fichier exercices.md. Soumettez alors un Pull-Request (PR) pour indiquer que vous proposez cet exercice. Si il est intéressant, il sera accepté et vous pourrez travailler dessus et proposer une suite de test associée.
 * Écrivez des tests unitaires à l'aide de CUnit pour l'exercice. Vous êtes invités à être le plus exhaustif possible dans vos tests unitaires. En outre, des idées de tests à réaliser vous sont imposés. Ceux-ci sont généralement des tests plus compliqués qui nécessitent de mettre en œuvre des pratiques avancées. Leur réalisation est également indispensable pour l'obtention du point bonus.
 * Proposez également une solution à l'exercice qui passe tous vos tests unitaires. Votre solution comprendra également des lignes de code commentées qui une fois décommentées feront échouer un de vos tests. Vos tests doivent vérifier votre solution, mais votre solution doit également pouvoir vérifier vos tests !
 * Soumettez alors un PR sur ce dépôt dans le dossier de l'exercice avec les fichiers que vous avez écrits. Une discussion commencera autour de ce PR où votre soumission sera analysée et jugée, si celle-ci est pertinente votre PR sera mergé au dépôt, sinon vous serez invités à effectuer des modifications à votre code et resoumettre un nouveau PR.
@@ -20,7 +21,7 @@ Chaque exercice possède a un dossier associé dans le dépôt. Les fichiers rel
 
 Vous pouvez également adjoindre d'autres fichiers, comme un Makefile, ou par exemple un fichier réécrivant certaines fonctions de la librairie standard grâce au mécanisme `LD_PRELOAD`. 
 
-N'hésitez pas à regarder la structure des dossiers mini-projet-string et calloc2, ces deux exercices font office d'exemple.
+N'hésitez pas à regarder la structure des dossiers mini-projet-string et calloc2, ces deux exercices font office d'exemples.
 
 ### Écriture des tests
 
